@@ -17,6 +17,8 @@
 body {
   background: var(--green-200);
   color: var(--white);
+  width: 940px;
+  margin: 0 auto;
   -webkit-font-smoothing: antialiased;
 }
 
