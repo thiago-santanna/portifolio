@@ -8,18 +8,14 @@ export function HeaderNavBar() {
         <div className={styles.imageContainer}>
           <img src={logo} alt="Logo Marga TSS Web Apps" />
         </div>
-        <div className={styles.navBarContainer}>
-          <nav>
-            <ul>
-              <li>Home</li>
-              <li>Projetos</li>
-              <li>Blog</li>
-            </ul>
-          </nav>
-        </div>
-        <div className={styles.buttonContainer}>
-          <button>Deixe seu recado</button>
-        </div>
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>Projetos</li>
+            <li>Blog</li>
+          </ul>
+        </nav>
+        <button>Deixe seu recado</button>
       </div>
     </>
   );
