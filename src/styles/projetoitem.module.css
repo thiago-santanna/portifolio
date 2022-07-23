@@ -1,0 +1,12 @@
+.projetoitem {
+  background-color: var(--gray-500);
+  border-radius: 1rem;
+  padding: 12px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  justify-content: space-between;
+}

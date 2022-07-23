@@ -1,6 +1,7 @@
 import styles from "./../../styles/Footer.module.css";
 import { Linkedin, GitHub, Instagram } from "react-feather";
 import imgwhatsApp from "./../../public/whatsapp.svg";
+
 export function Footer() {
   return (
     <footer className={styles.footer}>

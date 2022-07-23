@@ -6,31 +6,30 @@
   align-items: center;
   padding-left: 8px;
   padding-right: 8px;
-  color: var(--white);
   height: 100px;
   max-width: 940px;
   margin: 0 auto;
   height: calc(100vh - 180px);
 }
 
-.informacao {
-  line-height: 1.5;
-}
-.informacao h1,
-p {
+.title {
   color: var(--black-900);
 }
-.informacao h2 {
+
+.subtitle {
   color: var(--green-600);
+}
+
+.informacao {
+  line-height: 1.5;
 }
 
 .projetos {
   display: flex;
   flex-direction: column;
-  line-height: 1.5;
+  gap: 4px;
 }
 .projetos h2 {
-  color: var(--black-900);
   align-self: center;
 }
 .projetos button {
