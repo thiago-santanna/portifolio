@@ -1,11 +1,10 @@
-import { HeaderNavBar } from "./components/header";
 import "./global.css";
+import styles from "./styles/App.module.css";
 
 export function App() {
   return (
     <>
-      <HeaderNavBar />
-      <h1>HomePage</h1>
+      <main className={styles.content}>HomePage</main>
     </>
   );
 }
