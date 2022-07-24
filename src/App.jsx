@@ -16,10 +16,25 @@ export function App() {
         </section>
         <section className={styles.projetos}>
           <h2 className={styles.title}>Últimos projetos</h2>
-          <ProjetoItem />
-          <ProjetoItem />
-          <ProjetoItem />
-          <ProjetoItem />
+          <ProjetoItem
+            titulo="Download/Upload"
+            descricao="Uma implementação em NodeJs pra enviar e baixar arquivos."
+          />
+
+          <ProjetoItem
+            titulo="Download/Upload"
+            descricao="Uma implementação em NodeJs pra enviar e baixar arquivos."
+          />
+
+          <ProjetoItem
+            titulo="Download/Upload"
+            descricao="Uma implementação em NodeJs pra enviar e baixar arquivos."
+          />
+
+          <ProjetoItem
+            titulo="Download/Upload"
+            descricao="Uma implementação em NodeJs pra enviar e baixar arquivos."
+          />
           <button>Ver mais</button>
         </section>
       </main>
