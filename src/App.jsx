@@ -17,23 +17,27 @@ export function App() {
         <section className={styles.projetos}>
           <h2 className={styles.title}>Últimos projetos</h2>
           <ProjetoItem
-            titulo="Download/Upload"
-            descricao="Uma implementação em NodeJs pra enviar e baixar arquivos."
+            titulo="Dashboard de vendas"
+            descricao="Um site que mostra vendas em graficos React e Java."
+            url="https://tssvendas.netlify.app/dashboard"
           />
 
           <ProjetoItem
-            titulo="Download/Upload"
-            descricao="Uma implementação em NodeJs pra enviar e baixar arquivos."
+            titulo="Curriculo"
+            descricao="Curriculo demostrando os cursos fiz e atalhos pra o Github."
+            url="https://curriculo-dev.tsswebapps.com/"
           />
 
           <ProjetoItem
-            titulo="Download/Upload"
-            descricao="Uma implementação em NodeJs pra enviar e baixar arquivos."
+            titulo="Gerar apostas Megasena"
+            descricao="Site feito usando Reac no front e Java no Back"
+            url="https://fervent-poincare-b8cec1.netlify.app/"
           />
 
           <ProjetoItem
-            titulo="Download/Upload"
-            descricao="Uma implementação em NodeJs pra enviar e baixar arquivos."
+            titulo="Site para divulgar viagens e turismo"
+            descricao="Um site feito em Reac usando framework CSS."
+            url="https://travels-tsswebapp.vercel.app/"
           />
           <button>Ver mais</button>
         </section>
